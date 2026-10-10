@@ -1,0 +1,201 @@
+id_venda,data,produto,categoria,regiao,quantidade,preco_unitario
+1,2025-01-01,X-Bacon,Lanche,Centro,1,29.9
+2,2025-02-08,X-Salada,Lanche,Zona Leste,2,27.9
+3,2025-03-15,X-Frango,Lanche,Zona Norte,3,26.9
+4,2025-04-22,Batata P,Acompanhamento,Zona Oeste,4,12.9
+5,2025-05-02,Batata G,Acompanhamento,Zona Sul,1,18.9
+6,2025-06-09,Milkshake,Sobremesa,Centro,2,16.9
+7,2025-07-16,Brownie,Sobremesa,Zona Leste,3,14.9
+8,2025-08-23,Refrigerante,Bebida,Zona Norte,4,7.9
+9,2025-09-03,X-Bacon,Lanche,Zona Oeste,1,29.9
+10,2025-10-10,X-Salada,Lanche,Zona Sul,2,27.9
+11,2025-11-17,X-Frango,Lanche,Centro,3,26.9
+12,2025-12-24,Batata P,Acompanhamento,Zona Leste,4,12.9
+13,2025-01-04,Batata G,Acompanhamento,Zona Norte,1,18.9
+14,2025-02-11,Milkshake,Sobremesa,Zona Oeste,2,16.9
+15,2025-03-18,Brownie,Sobremesa,Zona Sul,3,14.9
+16,2025-04-25,Refrigerante,Bebida,Centro,4,7.9
+17,2025-05-05,X-Bacon,Lanche,Zona Leste,1,29.9
+18,2025-06-12,X-Salada,Lanche,Zona Norte,2,27.9
+19,2025-07-19,X-Frango,Lanche,Zona Oeste,3,26.9
+20,2025-08-26,Batata P,Acompanhamento,Zona Sul,4,12.9
+21,2025-09-06,Batata G,Acompanhamento,Centro,1,18.9
+22,2025-10-13,Milkshake,Sobremesa,Zona Leste,2,16.9
+23,2025-11-20,Brownie,Sobremesa,Zona Norte,3,14.9
+24,2025-12-27,Refrigerante,Bebida,Zona Oeste,4,7.9
+25,2025-01-07,X-Bacon,Lanche,Zona Sul,1,29.9
+26,2025-02-14,X-Salada,Lanche,Centro,2,27.9
+27,2025-03-21,X-Frango,Lanche,Zona Leste,3,26.9
+28,2025-04-01,Batata P,Acompanhamento,Zona Norte,4,12.9
+29,2025-05-08,Batata G,Acompanhamento,Zona Oeste,1,18.9
+30,2025-06-15,Milkshake,Sobremesa,Zona Sul,2,16.9
+31,2025-07-22,Brownie,Sobremesa,Centro,3,14.9
+32,2025-08-02,Refrigerante,Bebida,Zona Leste,4,7.9
+33,2025-09-09,X-Bacon,Lanche,Zona Norte,1,29.9
+34,2025-10-16,X-Salada,Lanche,Zona Oeste,2,27.9
+35,2025-11-23,X-Frango,Lanche,Zona Sul,3,26.9
+36,2025-12-03,Batata P,Acompanhamento,Centro,4,12.9
+37,2025-01-10,Batata G,Acompanhamento,Zona Leste,1,18.9
+38,2025-02-17,Milkshake,Sobremesa,Zona Norte,2,16.9
+39,2025-03-24,Brownie,Sobremesa,Zona Oeste,3,14.9
+40,2025-04-04,Refrigerante,Bebida,Zona Sul,4,7.9
+41,2025-05-11,X-Bacon,Lanche,Centro,1,29.9
+42,2025-06-18,X-Salada,Lanche,Zona Leste,2,27.9
+43,2025-07-25,X-Frango,Lanche,Zona Norte,3,26.9
+44,2025-08-05,Batata P,Acompanhamento,Zona Oeste,4,12.9
+45,2025-09-12,Batata G,Acompanhamento,Zona Sul,1,18.9
+46,2025-10-19,Milkshake,Sobremesa,Centro,2,16.9
+47,2025-11-26,Brownie,Sobremesa,Zona Leste,3,14.9
+48,2025-12-06,Refrigerante,Bebida,Zona Norte,4,7.9
+49,2025-01-13,X-Bacon,Lanche,Zona Oeste,1,29.9
+50,2025-02-20,X-Salada,Lanche,Zona Sul,2,27.9
+51,2025-03-27,X-Frango,Lanche,Centro,3,26.9
+52,2025-04-07,Batata P,Acompanhamento,Zona Leste,4,12.9
+53,2025-05-14,Batata G,Acompanhamento,Zona Norte,1,18.9
+54,2025-06-21,Milkshake,Sobremesa,Zona Oeste,2,16.9
+55,2025-07-01,Brownie,Sobremesa,Zona Sul,3,14.9
+56,2025-08-08,Refrigerante,Bebida,Centro,4,7.9
+57,2025-09-15,X-Bacon,Lanche,Zona Leste,1,29.9
+58,2025-10-22,X-Salada,Lanche,Zona Norte,2,27.9
+59,2025-11-02,X-Frango,Lanche,Zona Oeste,3,26.9
+60,2025-12-09,Batata P,Acompanhamento,Zona Sul,4,12.9
+61,2025-01-16,Batata G,Acompanhamento,Centro,1,18.9
+62,2025-02-23,Milkshake,Sobremesa,Zona Leste,2,16.9
+63,2025-03-03,Brownie,Sobremesa,Zona Norte,3,14.9
+64,2025-04-10,Refrigerante,Bebida,Zona Oeste,4,7.9
+65,2025-05-17,X-Bacon,Lanche,Zona Sul,1,29.9
+66,2025-06-24,X-Salada,Lanche,Centro,2,27.9
+67,2025-07-04,X-Frango,Lanche,Zona Leste,3,26.9
+68,2025-08-11,Batata P,Acompanhamento,Zona Norte,4,12.9
+69,2025-09-18,Batata G,Acompanhamento,Zona Oeste,1,18.9
+70,2025-10-25,Milkshake,Sobremesa,Zona Sul,2,16.9
+71,2025-11-05,Brownie,Sobremesa,Centro,3,14.9
+72,2025-12-12,Refrigerante,Bebida,Zona Leste,4,7.9
+73,2025-01-19,X-Bacon,Lanche,Zona Norte,1,29.9
+74,2025-02-26,X-Salada,Lanche,Zona Oeste,2,27.9
+75,2025-03-06,X-Frango,Lanche,Zona Sul,3,26.9
+76,2025-04-13,Batata P,Acompanhamento,Centro,4,12.9
+77,2025-05-20,Batata G,Acompanhamento,Zona Leste,1,18.9
+78,2025-06-27,Milkshake,Sobremesa,Zona Norte,2,16.9
+79,2025-07-07,Brownie,Sobremesa,Zona Oeste,3,14.9
+80,2025-08-14,Refrigerante,Bebida,Zona Sul,4,7.9
+81,2025-09-21,X-Bacon,Lanche,Centro,1,29.9
+82,2025-10-01,X-Salada,Lanche,Zona Leste,2,27.9
+83,2025-11-08,X-Frango,Lanche,Zona Norte,3,26.9
+84,2025-12-15,Batata P,Acompanhamento,Zona Oeste,4,12.9
+85,2025-01-22,Batata G,Acompanhamento,Zona Sul,1,18.9
+86,2025-02-02,Milkshake,Sobremesa,Centro,2,16.9
+87,2025-03-09,Brownie,Sobremesa,Zona Leste,3,14.9
+88,2025-04-16,Refrigerante,Bebida,Zona Norte,4,7.9
+89,2025-05-23,X-Bacon,Lanche,Zona Oeste,1,29.9
+90,2025-06-03,X-Salada,Lanche,Zona Sul,2,27.9
+91,2025-07-10,X-Frango,Lanche,Centro,3,26.9
+92,2025-08-17,Batata P,Acompanhamento,Zona Leste,4,12.9
+93,2025-09-24,Batata G,Acompanhamento,Zona Norte,1,18.9
+94,2025-10-04,Milkshake,Sobremesa,Zona Oeste,2,16.9
+95,2025-11-11,Brownie,Sobremesa,Zona Sul,3,14.9
+96,2025-12-18,Refrigerante,Bebida,Centro,4,7.9
+97,2025-01-25,X-Bacon,Lanche,Zona Leste,1,29.9
+98,2025-02-05,X-Salada,Lanche,Zona Norte,2,27.9
+99,2025-03-12,X-Frango,Lanche,Zona Oeste,3,26.9
+100,2025-04-19,Batata P,Acompanhamento,Zona Sul,4,12.9
+101,2025-05-26,Batata G,Acompanhamento,Centro,1,18.9
+102,2025-06-06,Milkshake,Sobremesa,Zona Leste,2,16.9
+103,2025-07-13,Brownie,Sobremesa,Zona Norte,3,14.9
+104,2025-08-20,Refrigerante,Bebida,Zona Oeste,4,7.9
+105,2025-09-27,X-Bacon,Lanche,Zona Sul,1,29.9
+106,2025-10-07,X-Salada,Lanche,Centro,2,27.9
+107,2025-11-14,X-Frango,Lanche,Zona Leste,3,26.9
+108,2025-12-21,Batata P,Acompanhamento,Zona Norte,4,12.9
+109,2025-01-01,Batata G,Acompanhamento,Zona Oeste,1,18.9
+110,2025-02-08,Milkshake,Sobremesa,Zona Sul,2,16.9
+111,2025-03-15,Brownie,Sobremesa,Centro,3,14.9
+112,2025-04-22,Refrigerante,Bebida,Zona Leste,4,7.9
+113,2025-05-02,X-Bacon,Lanche,Zona Norte,1,29.9
+114,2025-06-09,X-Salada,Lanche,Zona Oeste,2,27.9
+115,2025-07-16,X-Frango,Lanche,Zona Sul,3,26.9
+116,2025-08-23,Batata P,Acompanhamento,Centro,4,12.9
+117,2025-09-03,Batata G,Acompanhamento,Zona Leste,1,18.9
+118,2025-10-10,Milkshake,Sobremesa,Zona Norte,2,16.9
+119,2025-11-17,Brownie,Sobremesa,Zona Oeste,3,14.9
+120,2025-12-24,Refrigerante,Bebida,Zona Sul,4,7.9
+121,2025-01-04,X-Bacon,Lanche,Centro,1,29.9
+122,2025-02-11,X-Salada,Lanche,Zona Leste,2,27.9
+123,2025-03-18,X-Frango,Lanche,Zona Norte,3,26.9
+124,2025-04-25,Batata P,Acompanhamento,Zona Oeste,4,12.9
+125,2025-05-05,Batata G,Acompanhamento,Zona Sul,1,18.9
+126,2025-06-12,Milkshake,Sobremesa,Centro,2,16.9
+127,2025-07-19,Brownie,Sobremesa,Zona Leste,3,14.9
+128,2025-08-26,Refrigerante,Bebida,Zona Norte,4,7.9
+129,2025-09-06,X-Bacon,Lanche,Zona Oeste,1,29.9
+130,2025-10-13,X-Salada,Lanche,Zona Sul,2,27.9
+131,2025-11-20,X-Frango,Lanche,Centro,3,26.9
+132,2025-12-27,Batata P,Acompanhamento,Zona Leste,4,12.9
+133,2025-01-07,Batata G,Acompanhamento,Zona Norte,1,18.9
+134,2025-02-14,Milkshake,Sobremesa,Zona Oeste,2,16.9
+135,2025-03-21,Brownie,Sobremesa,Zona Sul,3,14.9
+136,2025-04-01,Refrigerante,Bebida,Centro,4,7.9
+137,2025-05-08,X-Bacon,Lanche,Zona Leste,1,29.9
+138,2025-06-15,X-Salada,Lanche,Zona Norte,2,27.9
+139,2025-07-22,X-Frango,Lanche,Zona Oeste,3,26.9
+140,2025-08-02,Batata P,Acompanhamento,Zona Sul,4,12.9
+141,2025-09-09,Batata G,Acompanhamento,Centro,1,18.9
+142,2025-10-16,Milkshake,Sobremesa,Zona Leste,2,16.9
+143,2025-11-23,Brownie,Sobremesa,Zona Norte,3,14.9
+144,2025-12-03,Refrigerante,Bebida,Zona Oeste,4,7.9
+145,2025-01-10,X-Bacon,Lanche,Zona Sul,1,29.9
+146,2025-02-17,X-Salada,Lanche,Centro,2,27.9
+147,2025-03-24,X-Frango,Lanche,Zona Leste,3,26.9
+148,2025-04-04,Batata P,Acompanhamento,Zona Norte,4,12.9
+149,2025-05-11,Batata G,Acompanhamento,Zona Oeste,1,18.9
+150,2025-06-18,Milkshake,Sobremesa,Zona Sul,2,16.9
+151,2025-07-25,Brownie,Sobremesa,Centro,3,14.9
+152,2025-08-05,Refrigerante,Bebida,Zona Leste,4,7.9
+153,2025-09-12,X-Bacon,Lanche,Zona Norte,1,29.9
+154,2025-10-19,X-Salada,Lanche,Zona Oeste,2,27.9
+155,2025-11-26,X-Frango,Lanche,Zona Sul,3,26.9
+156,2025-12-06,Batata P,Acompanhamento,Centro,4,12.9
+157,2025-01-13,Batata G,Acompanhamento,Zona Leste,1,18.9
+158,2025-02-20,Milkshake,Sobremesa,Zona Norte,2,16.9
+159,2025-03-27,Brownie,Sobremesa,Zona Oeste,3,14.9
+160,2025-04-07,Refrigerante,Bebida,Zona Sul,4,7.9
+161,2025-05-14,X-Bacon,Lanche,Centro,1,29.9
+162,2025-06-21,X-Salada,Lanche,Zona Leste,2,27.9
+163,2025-07-01,X-Frango,Lanche,Zona Norte,3,26.9
+164,2025-08-08,Batata P,Acompanhamento,Zona Oeste,4,12.9
+165,2025-09-15,Batata G,Acompanhamento,Zona Sul,1,18.9
+166,2025-10-22,Milkshake,Sobremesa,Centro,2,16.9
+167,2025-11-02,Brownie,Sobremesa,Zona Leste,3,14.9
+168,2025-12-09,Refrigerante,Bebida,Zona Norte,4,7.9
+169,2025-01-16,X-Bacon,Lanche,Zona Oeste,1,29.9
+170,2025-02-23,X-Salada,Lanche,Zona Sul,2,27.9
+171,2025-03-03,X-Frango,Lanche,Centro,3,26.9
+172,2025-04-10,Batata P,Acompanhamento,Zona Leste,4,12.9
+173,2025-05-17,Batata G,Acompanhamento,Zona Norte,1,18.9
+174,2025-06-24,Milkshake,Sobremesa,Zona Oeste,2,16.9
+175,2025-07-04,Brownie,Sobremesa,Zona Sul,3,14.9
+176,2025-08-11,Refrigerante,Bebida,Centro,4,7.9
+177,2025-09-18,X-Bacon,Lanche,Zona Leste,1,29.9
+178,2025-10-25,X-Salada,Lanche,Zona Norte,2,27.9
+179,2025-11-05,X-Frango,Lanche,Zona Oeste,3,26.9
+180,2025-12-12,Batata P,Acompanhamento,Zona Sul,4,12.9
+181,2025-01-19,Batata G,Acompanhamento,Centro,1,18.9
+182,2025-02-26,Milkshake,Sobremesa,Zona Leste,2,16.9
+183,2025-03-06,Brownie,Sobremesa,Zona Norte,3,14.9
+184,2025-04-13,Refrigerante,Bebida,Zona Oeste,4,7.9
+185,2025-05-20,X-Bacon,Lanche,Zona Sul,1,29.9
+186,2025-06-27,X-Salada,Lanche,Centro,2,27.9
+187,2025-07-07,X-Frango,Lanche,Zona Leste,3,26.9
+188,2025-08-14,Batata P,Acompanhamento,Zona Norte,4,12.9
+189,2025-09-21,Batata G,Acompanhamento,Zona Oeste,1,18.9
+190,2025-10-01,Milkshake,Sobremesa,Zona Sul,2,16.9
+191,2025-11-08,Brownie,Sobremesa,Centro,3,14.9
+192,2025-12-15,Refrigerante,Bebida,Zona Leste,4,7.9
+193,2025-01-22,X-Bacon,Lanche,Zona Norte,1,29.9
+194,2025-02-02,X-Salada,Lanche,Zona Oeste,2,27.9
+195,2025-03-09,X-Frango,Lanche,Zona Sul,3,26.9
+196,2025-04-16,Batata P,Acompanhamento,Centro,4,12.9
+197,2025-05-23,Batata G,Acompanhamento,Zona Leste,1,18.9
+198,2025-06-03,Milkshake,Sobremesa,Zona Norte,2,16.9
+199,2025-07-10,Brownie,Sobremesa,Zona Oeste,3,14.9
+200,2025-08-17,Refrigerante,Bebida,Zona Sul,4,7.9

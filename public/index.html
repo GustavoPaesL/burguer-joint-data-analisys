@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visão de Vendas | Hamburgueria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">CENTRO DE COMANDO • OPERAÇÃO HAMBURGUERIA</p>
+        <h1>Visão de vendas</h1>
+        <p class="subtitle">Monitore o desempenho da operação, encontre os produtos mais fortes e navegue pelos resultados.</p>
+      </div>
+      <div class="hero-actions">
+        <span id="sourceBadge" class="badge"><span class="status-dot"></span> Base original · 1.367 registros</span>
+        <label class="button button-primary file-button" for="csvInput">↥ Importar CSV</label>
+        <input id="csvInput" type="file" accept=".csv,text/csv" hidden>
+      </div>
+    </header>
+
+    <section class="notice" aria-label="Fonte dos dados">
+      <span class="notice-icon">i</span>
+      <p id="dataMessage">Base original incorporada na página: 1.367 registros válidos. As regiões são fictícias e foram distribuídas de forma determinística para viabilizar a comparação regional.</p>
+    </section>
+
+    <section class="filters panel" aria-labelledby="filters-title">
+      <div class="section-heading compact"><div><p class="eyebrow">EXPLORAÇÃO</p><h2 id="filters-title">Filtre os resultados</h2></div><button id="clearFilters" class="button button-light">↻ Limpar filtros</button></div>
+      <div class="filter-grid">
+        <div class="field"><label for="startDate">Data inicial</label><input id="startDate" type="date"></div>
+        <div class="field"><label for="endDate">Data final</label><input id="endDate" type="date"></div>
+        <div class="field"><label for="categoryFilter">Categoria</label><select id="categoryFilter"><option value="">Todas as categorias</option></select></div>
+        <div class="field"><label for="regionFilter">Região</label><select id="regionFilter"><option value="">Todas as regiões</option></select></div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Indicadores principais">
+      <article class="metric-card"><span class="metric-icon blue">R$</span><div><p>Faturamento total</p><strong id="totalRevenue">R$ 0,00</strong><small>nas vendas filtradas</small></div></article>
+      <article class="metric-card"><span class="metric-icon green">#</span><div><p>Quantidade de vendas</p><strong id="salesCount">0</strong><small>pedidos únicos</small></div></article>
+      <article class="metric-card"><span class="metric-icon orange">↗</span><div><p>Unidades vendidas</p><strong id="unitsCount">0</strong><small>produtos vendidos</small></div></article>
+      <article class="metric-card"><span class="metric-icon purple">◉</span><div><p>Ticket médio</p><strong id="averageTicket">R$ 0,00</strong><small>por venda</small></div></article>
+    </section>
+
+    <section class="insights-grid" aria-labelledby="insights-title">
+      <article class="panel insight-panel insight-main"><div class="section-heading"><div><p class="eyebrow">LEITURA AUTOMÁTICA</p><h2 id="insights-title">Resumo inteligente</h2></div><span class="insight-status">Baseado nos filtros atuais</span></div><p id="summaryInsight" class="insight-lead">Aguardando dados...</p><div class="insight-facts"><span id="trendInsight">—</span><span id="topInsight">—</span><span id="periodInsight">—</span></div></article>
+      <article class="panel insight-panel"><p class="eyebrow">ATENÇÃO</p><h2>Variações relevantes</h2><p id="anomalyInsight" class="insight-copy">Nenhuma variação calculada.</p></article>
+      <article class="panel insight-panel"><p class="eyebrow">PRÓXIMO PASSO</p><h2>Recomendação</h2><p id="recommendationInsight" class="insight-copy">Aguardando dados suficientes.</p></article>
+    </section>
+
+    <section class="chart-grid">
+      <article class="panel chart-card chart-wide"><div class="section-heading"><div><p class="eyebrow">EVOLUÇÃO</p><h2>Faturamento mensal</h2></div><span class="chart-note">Em reais (R$)</span></div><div class="canvas-wrap"><canvas id="monthlyChart"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">COMPARAÇÃO</p><h2>Por categoria</h2></div></div><div class="canvas-wrap"><canvas id="categoryChart"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">COMPARAÇÃO</p><h2>Por região</h2></div></div><div class="canvas-wrap"><canvas id="regionChart"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">VOLUME</p><h2>Unidades por categoria</h2></div></div><div class="canvas-wrap"><canvas id="unitsCategoryChart"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">RANKING</p><h2>Top produtos</h2></div><span class="chart-note">Faturamento</span></div><div class="canvas-wrap"><canvas id="productChart"></canvas></div></article>
+      <article class="panel chart-card"><div class="section-heading"><div><p class="eyebrow">ROTINA</p><h2>Vendas por dia da semana</h2></div></div><div class="canvas-wrap"><canvas id="weekdayChart"></canvas></div></article>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="section-heading table-heading"><div><p class="eyebrow">DETALHAMENTO</p><h2>Vendas registradas</h2><p id="recordCount" class="muted">0 registros exibidos</p></div><div class="table-actions"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Pesquisar vendas..." aria-label="Pesquisar vendas"></label><button id="exportCsv" class="button button-light">⇩ Exportar CSV</button></div></div>
+      <div id="emptyState" class="empty-state" hidden><span>⌁</span><h3>Nenhum resultado encontrado</h3><p>Tente remover algum filtro ou pesquisar por outro termo.</p></div>
+      <div class="table-scroll"><table id="salesTable"><thead><tr><th data-key="id_venda">ID <span>↕</span></th><th data-key="data">Data <span>↕</span></th><th data-key="produto">Produto <span>↕</span></th><th data-key="categoria">Categoria <span>↕</span></th><th data-key="regiao">Região <span>↕</span></th><th class="number" data-key="quantidade">Qtd. <span>↕</span></th><th class="number" data-key="preco_unitario">Preço unit. <span>↕</span></th><th class="number">Faturamento</th></tr></thead><tbody id="tableBody"></tbody></table></div>
+    </section>
+    <footer><span>Dashboard de análise de vendas</span><span>Dados processados localmente no navegador</span><nav class="social-links" aria-label="Links profissionais"><a href="https://github.com/GustavoPaesL" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://br.linkedin.com/in/gustavo-paes-leite" target="_blank" rel="noopener noreferrer">LinkedIn</a></nav></footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.3/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
