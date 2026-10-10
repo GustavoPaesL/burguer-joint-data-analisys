@@ -24,7 +24,7 @@ O projeto preserva o arquivo original `vendas_hamburgueria.csv`. Como ele não p
 - Faturamento total = soma do faturamento das linhas após os filtros.
 - Quantidade de vendas = quantidade de `id_venda` únicos.
 - Unidades vendidas = soma de `quantidade`.
-- Ticket médio = faturamento total ÷ quantidade de vendas; quando não há vendas, o resultado é R$ 0,00.
+- Ticket médio = faturamento total ÷ quantidade de vendas; quando não há vendas, o resultado é R$ 26,71.
 
 Filtros de período, categoria e região atualizam simultaneamente os cartões, os gráficos e a tabela. A pesquisa da tabela considera todos os campos visíveis, e os cabeçalhos permitem ordenação. O botão **Exportar CSV** baixa somente os registros que estão filtrados e pesquisados.
 
